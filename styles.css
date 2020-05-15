@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:#e0ebe7fa;background-repeat:no-repeat;
+
+}
+.nav-bar{
+    width:100%;background-color: #0537839f;height: 60px;border: 1px solid darkblue;display: flex;justify-content: space-between;
+}
+.left-side{
+    color: #ffffff;font-size: 40px;font-family:tahoma,Impact, ;height: 85px; width: 980px;position:absolute;right:4%;
+}
+.login{
+    position:absolute;right:11.5%;top:4%;
+        
+       
+}
+.middle{
+    position: absolute; left:59%;color: rgb(211, 216, 232);
+}
+.right{
+    position:absolute;right:15%;color: rgb(211, 216, 232);
+}
+.forgot_account{
+    color:white;position: absolute;right:19.5%;top:7%;
+}
+
+
+
+
+
