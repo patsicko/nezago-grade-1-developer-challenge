@@ -1,14 +1,14 @@
 body{
     margin:0;
     padding: 0;
-    background-color:#e0ebe7fa;background-repeat:no-repeat;
+    background-color:rgba(224, 235, 231, 0.98);background-repeat:no-repeat;
 
 }
 .nav-bar{
     width:100%;background-color: #0537839f;height: 60px;border: 1px solid darkblue;display: flex;justify-content: space-between;
 }
 .left-side{
-    color: #ffffff;font-size: 40px;font-family:tahoma,Impact, ;height: 85px; width: 980px;position:absolute;right:4%;
+    color: #ffffff;font-size: 40px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;height: 85px; width: 980px;position:absolute;right:13%;
 }
 .login{
     position:absolute;right:11.5%;top:4%;
@@ -25,7 +25,50 @@ body{
     color:white;position: absolute;right:19.5%;top:7%;
 }
 
+.welcome_message{
+    position:absolute;left:18%;font-size: 27px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;top: 24%;
 
+}
+.icons{
+    position: absolute;left:21%;top:40%;font-size: 16px;line-height: 4;
+}
+span{
+    font-weight: bold;
+}
+aside{
+    float:right; position: absolute;right:16%;top:15%;
+}
+.signup{
+    font-weight: bold; font-size: 37px;
+}
+.easy{
+    font-size: 19px;font-weight: lighter;color: rgba(24, 23, 23, 0.781);
+}
+.names{
+    line-height: 3;
+}
+.address{
+    position: absolute;top: 72%;
+}
+.password{
+    position:absolute;top:94%;
+}
+.birthday{
+    position:absolute;top:120%;
+}
+img{
+    position:absolute;right:80%;top:40%;height: 170px;
+}
 
+.gender{
+    line-height: 2;font-size: 18px;
+}
+.terms{
+    font-size: 12px;position: absolute;top:185%;color: rgb(73, 72, 72);
 
+}
+footer{
+    position:absolute;top: 240%;
+}
 
